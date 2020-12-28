@@ -12,6 +12,4 @@
 	define('USER','root');
 	define('PASSWORD','');
     define('DATABASE','ecommerce');
-    
-    \App\Class\Conexao::conectar();
-    new \App\Controllers\LojaControllers();
+   
