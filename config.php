@@ -14,4 +14,4 @@
     define('DATABASE','ecommerce');
     
     \App\Class\Conexao::conectar();
-    new \App\Controllers\Loja();
+    new \App\Controllers\LojaControllers();
