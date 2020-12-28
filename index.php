@@ -13,10 +13,10 @@
     ]);
 
     //produtos
-    $router->get('/:string', function($categoria) {
+    $router->get('/:slug', function($categoria) {
         App\Controllers\ProdutoControllers::categoria();
     });
-    $router->get('/:string/:string', function($categoria, $produto) {
+    $router->get('/:slug/:slug', function($categoria, $produto) {
         App\Controllers\ProdutoControllers::produto();
     });
 
