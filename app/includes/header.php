@@ -8,7 +8,7 @@
         <section class="topo">
             <div class="container">
                 <div class="left">
-                    <a href=""><span>STORE</span><span>GO</span></a>
+                    <a href="<?php echo INCLUDE_PATH; ?>"><span>STORE</span><span>GO</span></a>
                     <div class="search">
                         <form action="" method="get">
                             <input type="search" name="" id="">
@@ -18,11 +18,11 @@
                 </div>
                 <div class="right">
                     <div class="conta">
-                        <a href=""><i class="fas fa-user"></i> Conta</a>
+                        <a href="<?php echo INCLUDE_PATH; ?>conta"><i class="fas fa-user"></i> Conta</a>
                     </div>
 
                     <div class="carrinho">
-                        <a href=""><i class="fas fa-shopping-cart"></i> Carrinho (4)</a>
+                        <a href="<?php echo INCLUDE_PATH; ?>carrinho"><i class="fas fa-shopping-cart"></i> Carrinho (4)</a>
                     </div>
                 </div>
             </div>
