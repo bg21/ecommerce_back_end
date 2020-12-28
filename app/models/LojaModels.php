@@ -10,6 +10,7 @@
             include('app/views/carrinho.php');
         }
 
+
         public static function erro(){
             include('app/views/erro.php');
         }

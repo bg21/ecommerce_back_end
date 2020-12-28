@@ -3,7 +3,7 @@
 
     class LojaControllers{
         //exibindo o index
-        public function __construct(){
+        public static function index(){
             $loja = \App\Models\LojaModels::index();
         }
 
@@ -11,7 +11,10 @@
             $carrinho = \App\Models\LojaModels::carrinho();
         }
 
+        
+
         public static function erro(){
             $erro = \App\Models\LojaModels::erro();
         }
+        
     }
