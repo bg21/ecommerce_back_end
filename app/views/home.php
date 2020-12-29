@@ -13,32 +13,7 @@
     <section class="body">
         <div class="container">
             <aside>
-                <nav>
-                    <ul>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktop asdasds</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktop asdasds</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktop asdasds</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktop asdasds</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktop asdasds</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktops</a></li>
-                        <li><a href="">Desktop asdasds</a></li>
-                        <li><a href="">Desktops</a></li>
-                    </ul>
-                </nav>
-
-                <div class="anuncio_vertical">
-                    <!-- <img src="imgs/anuncio.png" alt=""> -->
-                </div>
+                <?php include('app/includes/sidebar.php'); ?>
             </aside>
             <main>
                 <section class="slide">

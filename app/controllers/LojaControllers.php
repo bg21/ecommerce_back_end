@@ -13,8 +13,6 @@
 
         
 
-        public static function erro(){
-            $erro = \App\Models\LojaModels::erro();
-        }
+        
         
     }

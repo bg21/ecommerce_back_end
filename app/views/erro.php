@@ -6,15 +6,26 @@
     ?>
 </head>
 <body>
+    <?php 
+        require 'app/includes/header.php';
+    ?>
 
-<?php 
-    require 'app/includes/header.php';
-?>
+    <section class="body">
+        <div class="container">
+            <aside>
+                <?php include('app/includes/sidebar.php'); ?>
+            </aside>
+            <main>
+                <h1>Página de erro</h1>
 
-Página de erro
-
-
-
+                
+                <div class="anuncio_horizontal">
+                    <!-- <img src="imgs/anuncio.png" alt=""> -->
+                </div>
+            </main>
+        </div>
+    </section>
 <?php 
     require 'app/includes/footer.php';
 ?>
+    

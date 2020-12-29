@@ -31,7 +31,7 @@
         <nav>
             <div class="container">
                 <ul>
-                    <li><a href="">Todas as Categorias</a></li>
+                    <li><a href="<?php echo INCLUDE_PATH; ?>categorias">Todas as Categorias</a></li>
                     <li><a href="">Specials</a></li>
                     <li><a href="">Lorem</a></li>
                     <li><a href="">Ipsum</a></li>

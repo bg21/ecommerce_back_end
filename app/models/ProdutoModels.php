@@ -8,9 +8,11 @@
             if($verifica->rowCount() == 1){
                 include('app/views/produtos/categoria.php');
             }else{
-                include('app/views/erro.php');
+                helper::erro();
             }
         }
+
+        
 
         public static function produto($categoria, $produto){
             $verifica = Conexao::conectar()->prepare("SELECT * FROM tb_produtos WHERE categoria_slug = ? AND nome_slug = ?");
@@ -18,9 +20,16 @@
             if($verifica->rowCount() == 1){
                 include('app/views/produtos/produto.php');
             }else{
-                include('app/views/erro.php');
+                helper::erro();
             }
             
+        }
+
+        public static function showCategorias(){
+            $categorias = Conexao::conectar()->prepare("SELECT * FROM tb_categorias ORDER BY id ASC");
+            $categorias->execute();
+            $categorias = $categorias->fetchAll();
+            return $categorias;
         }
 
     }

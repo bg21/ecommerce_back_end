@@ -6,13 +6,27 @@
     ?>
 </head>
 <body>
-<?php 
-    require 'app/includes/header.php';
-?>
-produto
+    <?php 
+        require 'app/includes/header.php';
+    ?>
 
+    <section class="body">
+        <div class="container">
+            <aside>
+                <?php include('app/includes/sidebar.php'); ?>
+            </aside>
+            <main>
+                
+                <h1>Produto</h1>
 
-
+                
+                <div class="anuncio_horizontal">
+                    <!-- <img src="imgs/anuncio.png" alt=""> -->
+                </div>
+            </main>
+        </div>
+    </section>
 <?php 
     require 'app/includes/footer.php';
 ?>
+    

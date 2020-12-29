@@ -27,7 +27,7 @@
     $router->get('/carrinho', function() {
         App\Controllers\LojaControllers::carrinho();
     });
-
+    
     //conta
     $router->get('/conta', function() {
         App\Controllers\ClienteControllers::index();

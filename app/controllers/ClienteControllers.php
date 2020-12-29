@@ -5,5 +5,6 @@
         public static function index(){
             $index = \App\Models\ClienteModels::index();
         }
+
     }
     
