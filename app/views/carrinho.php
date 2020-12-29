@@ -10,18 +10,24 @@
         require 'app/includes/header.php';
     ?>
 
-    <section class="body">
+<section class="body">
         <div class="container">
             <aside>
-                <?php include('app/includes/sidebar.php'); ?>
+                <?php include('app/includes/sidebarConta.php'); ?>
             </aside>
             <main>
-                <h1>Carrinho</h1>
+                <!-- <alerta class="sucesso">asdfasdf</alerta>
+                <alerta class="aviso">asdfasdf</alerta>
+                <alerta class="perigo">asdfasdf</alerta> -->
+                <breadcumb>
+                    <h2>Carrinho</h2>
+                </breadcumb>
 
+                <section class="painel">
+                    <h2>Olá, admin</h2>
+                </section>
                 
-                <div class="anuncio_horizontal">
-                    <!-- <img src="imgs/anuncio.png" alt=""> -->
-                </div>
+                
             </main>
         </div>
     </section>

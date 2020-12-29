@@ -16,19 +16,18 @@
                 <?php include('app/includes/sidebarConta.php'); ?>
             </aside>
             <main>
-                
-                    <breadcumb>
-                        <h2>Minha conta</h2>
-                    </breadcumb>
+                <!-- <alerta class="sucesso">asdfasdf</alerta>
+                <alerta class="aviso">asdfasdf</alerta>
+                <alerta class="perigo">asdfasdf</alerta> -->
+                <breadcumb>
+                    <h2>Minha conta</h2>
+                </breadcumb>
 
-                    <section class="painel">
-                        ddfdsf
-                    </section>
+                <section class="painel">
+                    <h2>Olá, admin</h2>
+                </section>
                 
                 
-                <div class="anuncio_horizontal">
-                    <!-- <img src="imgs/anuncio.png" alt=""> -->
-                </div>
             </main>
         </div>
     </section>

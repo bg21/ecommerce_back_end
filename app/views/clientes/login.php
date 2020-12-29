@@ -44,9 +44,6 @@
                 </div>
                 
                 
-                <div class="anuncio_horizontal">
-                    <!-- <img src="imgs/anuncio.png" alt=""> -->
-                </div>
             </main>
         </div>
     </section>

@@ -272,8 +272,9 @@ div.flex{
 }
 
 section.painel{
-    background-color: #faf8f2;
+    background-color: #f5f3ed;
     padding: 15px;
+    min-height: 500px;
 }
 
 button.face{
@@ -287,3 +288,22 @@ button.face{
 button.face i{
     font-size: 20px;
 }
+
+alerta{
+    padding: 20px;
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+alerta.sucesso{
+    background-color: #30bf57;
+}
+alerta.aviso{
+    background-color: #facd50;
+}
+alerta.perigo{
+    background-color: #ff5d52;
+}
+
+@import 'responsivo';
