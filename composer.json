@@ -8,7 +8,8 @@
         }
     ],
     "require": {
-        "izniburak/router": "^2.2"
+        "izniburak/router": "^2.2",
+        "phpmailer/phpmailer": "^6.2"
     },
     "autoload": {
         "psr-4": {"App\\": "app/"}

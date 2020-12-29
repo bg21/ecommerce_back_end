@@ -3,7 +3,7 @@
 
     class ProdutoModels{
         public static function categoria($categoria){
-            $verifica = Conexao::conectar()->prepare("SELECT * FROM tb_produtos WHERE categoria_slug = ?");
+            $verifica = Conexao::conectar()->prepare("SELECT * FROM tb_categorias WHERE slug_categoria = ?");
             $verifica->execute([$categoria]);
             if($verifica->rowCount() == 1){
                 include('app/views/produtos/categoria.php');
