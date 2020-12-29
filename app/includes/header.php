@@ -27,7 +27,7 @@
                 </div>
             </div>
         </section>
-
+        <?php if(!isset($_SESSION['loginConta'])){ ?>
         <nav>
             <div class="container">
                 <ul>
@@ -39,4 +39,5 @@
                 </ul>
             </div>
         </nav>
+    <?php  } ?>
 </header>

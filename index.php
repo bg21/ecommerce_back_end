@@ -29,6 +29,9 @@
     });
     
     //conta
+    $router->get('/login', function() {
+        App\Controllers\ClienteControllers::login();
+    });
     $router->get('/conta', function() {
         App\Controllers\ClienteControllers::index();
     });

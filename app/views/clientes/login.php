@@ -20,9 +20,8 @@
                     <div class="w30">
                     </div>
                     <section class="login">
-                        <breadcumb>
-                            <a href="">Conta</a> <span>|</span> <a href="">Login</a>
-                        </breadcumb>
+                       
+                        <h2>Login</h2>
 
                         <form action="" class="login">
                             <div class="input_group">
@@ -34,7 +33,13 @@
                                 <label for="">Senha</label>
                                 <input type="password" name="" id="">
                             </div>
+                            <a href="">Esqueci a senha</a>
                         </form>
+
+                        <button class="face" type="button">
+                        <i class="fab fa-facebook-square"></i>
+                        Fazer Login com o Facebook
+                    </button>
                     </section>
                 </div>
                 

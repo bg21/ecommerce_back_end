@@ -7,7 +7,7 @@
     define('INCLUDE_PATH','http://localhost/Projetos/ecommerce/');
     
     
-    
+    $_SESSION['loginConta'] = true;
 
     //Conectar com banco de dados!
 	define('HOST','localhost');

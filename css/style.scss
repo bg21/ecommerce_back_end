@@ -236,22 +236,23 @@ section.login{
     background-color: #f5f5f5;
     padding: 20px;
     width: 70%;
-    
-    
     text-align: center;
 }
 breadcumb{
-    padding: 20px 0;
+    padding: 15px;
+    background-color: #202020;
+    width: 100%;
+    display: block;
 }
-breadcumb a, breadcumb span{
+breadcumb h2{
     font-size: 25px;
-    color: #333;
+    color: #fff;
 }
 
 form.login{
     padding: 20px 0;
     max-width: 520px;
-    margin: 40px auto;;
+    margin: 40px auto;
 }
 
 .input_group{
@@ -268,4 +269,21 @@ form.login{
 div.flex{
     display: flex;
     height: 600px;
+}
+
+section.painel{
+    background-color: #faf8f2;
+    padding: 15px;
+}
+
+button.face{
+    background-color: #4C69A5;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+button.face i{
+    font-size: 20px;
 }
