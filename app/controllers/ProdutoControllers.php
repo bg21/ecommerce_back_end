@@ -2,12 +2,12 @@
     namespace App\Controllers;
 
     class ProdutoControllers{
-        public static function categoria(){
-            $categoria = \App\Models\ProdutoModels::categoria();
+        public static function categoria($categoria){
+            $categoria = \App\Models\ProdutoModels::categoria($categoria);
         }
 
-        public static function produto(){
-            $categoria = \App\Models\ProdutoModels::produto();
+        public static function produto($categoria, $produto){
+            $categoria = \App\Models\ProdutoModels::produto($categoria, $produto);
         }
     }
     

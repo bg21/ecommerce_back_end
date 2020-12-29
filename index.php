@@ -14,10 +14,10 @@
 
     //produtos
     $router->get('/:slug', function($categoria) {
-        App\Controllers\ProdutoControllers::categoria();
+        App\Controllers\ProdutoControllers::categoria($categoria);
     });
     $router->get('/:slug/:slug', function($categoria, $produto) {
-        App\Controllers\ProdutoControllers::produto();
+        App\Controllers\ProdutoControllers::produto($categoria, $produto);
     });
 
     //loja

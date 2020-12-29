@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Class;
+namespace App\Models;
 use PDO;
 
 class Conexao{
