@@ -16,8 +16,28 @@
                 <?php include('app/includes/sidebar.php'); ?>
             </aside>
             <main>
+                <div class="flex">
+                    <div class="w30">
+                    </div>
+                    <section class="login">
+                        <breadcumb>
+                            <a href="">Conta</a> <span>|</span> <a href="">Login</a>
+                        </breadcumb>
+
+                        <form action="" class="login">
+                            <div class="input_group">
+                                <label for="">Email</label>
+                                <input type="email" name="" id="">
+                            </div>
+
+                            <div class="input_group">
+                                <label for="">Senha</label>
+                                <input type="password" name="" id="">
+                            </div>
+                        </form>
+                    </section>
+                </div>
                 
-                <h1>Conta</h1>
                 
                 <div class="anuncio_horizontal">
                     <!-- <img src="imgs/anuncio.png" alt=""> -->

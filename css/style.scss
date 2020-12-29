@@ -9,6 +9,10 @@
 h1, h2, h3, h4{
     color: rgb(71, 71, 71);
 }
+.w30{
+    width: 30%;
+    background-color: #ffcb3b;;
+}
 
 .w33{
     margin: 10px;
@@ -228,3 +232,40 @@ footer{
     color: #fff;
 }
 
+section.login{
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 70%;
+    
+    
+    text-align: center;
+}
+breadcumb{
+    padding: 20px 0;
+}
+breadcumb a, breadcumb span{
+    font-size: 25px;
+    color: #333;
+}
+
+form.login{
+    padding: 20px 0;
+    max-width: 520px;
+    margin: 40px auto;;
+}
+
+.input_group{
+    width:100%;
+    padding: 0 0 20px 0;
+    text-align: left;
+}
+.input_group input{
+    width:100%;
+    padding: 15px;
+    outline: none;
+}
+
+div.flex{
+    display: flex;
+    height: 600px;
+}
